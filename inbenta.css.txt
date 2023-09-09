@@ -1,0 +1,78 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: "Helvetica";
+}
+
+/* Estilos para el contenedor del carrusel */
+.carousel-container {
+    width: 400px;
+    overflow: hidden;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Estilos para los elementos del carrusel */
+.carousel div {
+    width: 346px;
+    flex-shrink: 0;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para el contenedor de botones */
+.button-container {
+    display: flex;
+}
+
+/* Estilos para los botones de navegación */
+.prev, .next {
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(186, 36, 35); /* Color de fondo centrado */
+}
+
+/* Estilos para el contenido */
+.contenido {
+    border-radius: 10px;
+    background-color: rgb(239, 239, 239);
+}
+
+/* Estilos para la lista */
+li {
+    color: black;
+}
+
+/* Estilos para los elementos <span> dentro de <li> */
+li span {
+    color: red; /* Cambia el color del texto dentro de los elementos <li> */
+    font-weight: bold;
+}
+
+/* Estilos para espacios */
+.espacios {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;
+}
+
+/* Estilos para botones */
+.botones {
+    background-color: white;
+    width: 398px;
+    height: 50px;
+    border: 1px solid black;
+}
